@@ -1,0 +1,28 @@
+{
+  "name": "maya-test-module",
+  "version": "1.0.0",
+  "description": "Test module for quickstart",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+.git"
+  },
+  "author": "dush-t",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayahq/mayadev/issues"
+  },
+  "homepage": "#readme",
+  "dependencies": {
+    "@mayahq/module-sdk": "^0.1.0"
+  },
+  "nodepath": "src/nodes",
+  "nodeRedModuleName": "maya-test-module",
+  "node-red": {
+    "nodes": {
+      "my-normal-node": "src/nodes/myNormalNode/myNormalNode.node.js",
+      "my-config-node": "src/nodes/myConfigNode/myConfigNode.node.js"
+    }
+  }
+}
